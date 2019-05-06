@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Conditions 3</h2>
+<p>Display "Hello!" if the hour > the date:</p>
+
+<p id="demo"></p>
+
+<script>
+var x = new Date().getHours();
+var y = new Date().getDate();
+var z = new Date().getMinutes();
+if (x > y) {
+  document.getElementById("demo").innerHTML ="Hello!";
+} else if(x > z){
+	document.getElementById("demo").innerHTML ="Bye!";
+} else {
+	document.getElementById("demo").innerHTML ="Thank you!";
+}
+</script>
+
+</body>
+</html>
