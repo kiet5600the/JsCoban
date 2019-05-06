@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript break 3</h2>
+
+<p id="demo"></p>
+
+<script>
+var beers = ["Corona", "Tiger", "Ken", "333"];
+var text = "";
+
+list: {
+  text += beers[0] + "<br>"; 
+  text += beers[1] + "<br>"; 
+  break list;
+  text += beers[2] + "<br>"; 
+  text += beers[3] + "<br>"; 
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript break 2</h2>
+<p>if i = 5 then continue</p>
+<p id="demo"></p>
+
+<script>
+var text = "";
+var i;
+for (i = 0; i < 10; i++) {
+  if (i === 5) { continue; }
+  text += i + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
